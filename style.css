@@ -7,7 +7,7 @@ html {
   scroll-behavior: smooth;
 }
 main {
-  background-color: rgba(255, 253, 209, 0.5);
+  background-color: rgba(255, 253, 209, 0.2);
 }
 :root {
   /* Fonts */
