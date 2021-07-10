@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="shortcut icon" href="./img/favicon-16x16.jpg" type="image/x-icon">
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Roboto:wght@300;400;700;900&family=Yomogi&family=Great+Vibes&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Awesome fonts -->
+    <script
+      src="https://kit.fontawesome.com/6f654f2ea2.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Baby Name</title>
+  </head>
+  <body>
+    <main>
+    <header class="header" id="home">
+      <!-- navbar -->
+      <nav class="nav">
+        <div class="navbar">
+          <img src="./img/logo.png" class="logo" alt="log" />
+          <div class="toggle-menu">
+            <i class="fas fa-bars btn-menu"></i>
+          </div>
+        </div>
+        <div class="links-container">
+          <ul class="links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#list">List</a></li>
+            <li><a href="#picker">Picker</a></li>
+            <li><a href="#shop">Shop</a></li>
+            <li><a href="#faq">FAQ</a></li>
+            
+          </ul>
+        </div>
+      </nav>
+      <!-- end of navbar -->
+      <!-- Hero -->
+    
+      <div class="hero">
+        <h1>
+          <span class="primary">baby names</span><br />
+          <span class="secundary">website</span>
+        </h1>
+      <a class="btn btn-top" href="#list">Start</a>
+      </div>
+        <!-- Hero -->
+    </header>
+<!-- list name -->
+    <section class="name-list" id="list">
+      <div class="title">
+        <h2>The most beautiful baby names</h2>
+      </div>
+       <div class="gender">
+         <div class="boy">
+          <img src="./img/babyface.png" alt="" class="img-baby">
+          <input class="input-name" type="radio" name="name" value="boy" id="boy" checked /> boy
+        </div>
+        <div class="girl">
+          <img src="./img/babyface.png" alt="" class="img-baby">
+          <input class="input-name" type="radio" name="name" value="girl" id="girl" /> girl
+        </div>
+      </div>
+    </div>
+    <h5 class="tryagain"></h5>
+        <form class="form-name-list">
+          <input type="text" class="form" placeholder="Enter your surname" />
+          <button class="submit" type="submit">Submit</button>
+        </form>
+       
+      <div class="container">
+        <div class="container-one"></div>
+        <div class="container-two"></div>
+      </div>
+    </section>
+    <!-- End of list name -->
+  
+<!-- Pick ramdom name -->
+<section class="random-name section-center" id="picker">
+    <div class="main-faq-question">
+      <div class="title title-questions">
+        <h2>name selector</h2>
+      </div>
+      <div class="random-name-container">
+        <h3>Enter your favorites names divided by a coma (,). <br> press enter when you are done </h3>
+        <textarea  id="textarea" placeholder="Enter names here .." class="text-area"></textarea>
+
+        <div id="tags">
+          <!-- <span class="tag">Choice 1</span>
+          <span class="tag highlight">Choice 2</span>
+          <span class="tag">Choice 3</span> -->
+        </div>
+      </div>
+</section>
+<!-- End of Pick ramdom name -->
+<!-- Shop -->
+      <section class="shop-section" id="shop" >
+ <div class="title title-questions">
+        <h2>Shop</h2>
+      </div>
+      <div class="shop-container">
+      <div class="panel active panel1">
+        <h3>Clothes</h3>
+      </div>
+      <div class="panel panel2">
+        <h3>books</h3>
+      </div>
+      <div class="panel panel3">
+        <h3>toys</h3>
+      </div>
+      <div class="panel panel4">
+        <h3>food</h3>
+      </div>
+      <div class="panel panel5">
+        <h3>furniture</h3>
+      </div>
+      </div>
+      </section>
+<!-- End of Shop -->
+
+  <!-- A&Q -->
+    <section class="section-center  faq" id="faq">
+      <div class="main-faq-question">
+      <div class="title title-questions">
+        <h2>Frequently Asked Questions</h2>
+      </div>
+      <div class="question-section">
+        <!-- single question -->
+        <div class="single-question">
+        <div class="question">
+          <h4>How to choose my baby name?</h4>
+          <btn class="question-btn">
+            <i class="fas fa-angle-up up"></i>
+            <i class="fas fa-angle-down down"></i>
+          </btn>
+        </div>
+          <div class="answer">
+     <ol>
+        <li>Avoid passing trends</li>
+        <li>Classic names don’t mean boring names</li>
+        <li>Take a look at your family tree</li>
+        <li>Honor your cultures</li>
+        <li>Look up meanings</li>
+        <li>Don’t stress too much</li>
+     </ol>
+</div>
+</div>
+<!-- end single question -->
+        <!-- single question -->
+        <div class="single-question">
+        <div class="question">
+          <h4>How to choose second name?</h4>
+          <btn class="question-btn">
+            <i class="fas fa-angle-up up"></i>
+            <i class="fas fa-angle-down down"></i>
+          </btn>
+        </div>
+          <div class="answer">
+     <ol>
+        <li>Go in a different direction</li>
+        <li>Give it personal meaning</li>
+        <li>Consider nicknames</li>
+        <li>Pay attention to the flow</li>
+        <li>Look up meanings</li>
+        <li>Have a little fun with it</li>
+     </ol>
+</div>
+</div>
+<!-- end single question -->
+        <!-- single question -->
+        <div class="single-question">
+        <div class="question">
+          <h4>When do parents pick a baby name?</h4>
+          <btn class="question-btn">
+            <i class="fas fa-angle-up up"></i>
+            <i class="fas fa-angle-down down"></i>
+          </btn>
+        </div>
+          <div class="answer">
+    <p>The middle of pregnancy is the most popular time to settle on a name – one third of parents make their choice amid the second-trimester glow. It's probably no coincidence that this is when you're likely to find out whether you're having a boy or a girl.</p>
+</div>
+</div>
+<!-- end single question -->
+       
+      </div>
+      </div>
+      </section>
+    <!-- End A&Q -->
+<!-- Footer -->
+<footer class="footer">
+  <div class="footer-one">
+    <h4>menu</h4>
+    <ul class="footer-links link">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#list">List</a></li>
+            <li><a href="#picker">Picker</a></li>
+            <li><a href="#shop">Shop</a></li>
+            <li><a href="#faq">FAQ</a></li>
+            
+          </ul>
+  </div>
+  <div class="footer-two">
+ <h4>Media</h4>
+   <div class="social">
+     <a href="https://twitter.com/MaxCodeJourney?s=08" target="_blanck"><i class="fab fa-instagram"></i></a>
+     <a href="https://twitter.com/MaxCodeJourney?s=08" target="_blanck"><i class="fab fa-facebook"></i></a>
+     <a href="https://twitter.com/MaxCodeJourney?s=08" target="_blanck"><i class="fab fa-twitter"></i></a>
+     <a href="https://twitter.com/MaxCodeJourney?s=08" target="_blanck"><i class="fab fa-youtube"></i></a>
+   </div>
+  </div>
+  <div class="footer-three">
+    <h4>Info</h4>
+   <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque ex corrupti placeat blanditiis modi voluptatum facere numquam consequuntur explicabo aspernatur tenetur, nulla </p>
+  </div>
+  
+</footer>
+<div class="created">
+  <p>Create by <a href="https://myfirstwebsite1-0-4.netlify.app/" target="_black">Maxi Ruti</a> <span id="date"></span></p>
+</div>
+<!-- End ofFooter -->
+
+  </main>
+    <script type="module" src="./app.js"></script>
+  </body>
+</html>
